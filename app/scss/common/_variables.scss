@@ -1,0 +1,28 @@
+// ----------------------  SITE COLORS  ----------------------
+
+$blue: 			#3DB6C9;
+$yellow: 		#F9D23F;
+$green: 		#67DE76;
+$red: 			#FF0000;
+$purple: 		#A23195;
+$orange: 		#FF9E14;
+$navy: 			#002856;
+$white:         #ffffff;
+$black: 		#000000;
+$primary: 		$blue;
+
+
+// ----------------------  TYPEFACES  ----------------------
+
+// google fonts or typekit import
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;900&display=swap');
+
+$inter:         'Inter', Arial, Helvetica, sans-serif;
+
+
+// ----------------------  BREAKPOINTS  ----------------------
+
+$x-large:   1500px;
+$large:     1200px;
+$medium:    1000px;
+$small:     550px;

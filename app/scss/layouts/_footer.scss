@@ -1,0 +1,47 @@
+footer {
+    background-color: $primary;
+	padding-top: 100px;
+
+	@media screen and (max-width: $medium) {
+		padding-top: 60px;
+	}
+	.elementor-container {
+		flex-wrap: wrap;
+	}
+	h1 {
+		line-height: 1.2 !important;
+	}
+	p {
+		font-size: 25px;
+
+		@media screen and (max-width: $medium) {
+			font-size: 20px;
+		}
+		a {
+			text-decoration: underline !important;
+
+			&:hover {
+				text-decoration: none !important;
+			}
+		}
+	}
+	.cheers {
+		p {
+			margin-bottom: 0px;
+			text-align: right;
+			font-size: 32px;
+			line-height: 40px;
+			font-weight: 500;
+			padding: 50px 100px 80px;
+
+			@media screen and (max-width: $large) {
+				padding: 50px 0px 80px;
+			}
+			@media screen and (max-width: $medium) {
+				font-size: 40px;
+				line-height: 45px;
+				padding: 60px 0px;
+			}
+		}
+	}
+}

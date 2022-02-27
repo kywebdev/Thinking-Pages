@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="16px" viewBox="0 0 39 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Menu</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="pmg-mobile" transform="translate(-316.000000, -53.000000)" stroke="#000000" stroke-width="3">
+            <g id="Header" transform="translate(-20.000000, 0.000000)">
+                <g id="Group" transform="translate(337.000000, 54.000000)">
+                    <line x1="0.804347826" y1="1" x2="36.1956522" y2="1" id="Line"></line>
+                    <line x1="0.804347826" y1="13" x2="36.1956522" y2="13" id="Line-Copy"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

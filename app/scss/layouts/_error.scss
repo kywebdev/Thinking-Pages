@@ -1,0 +1,24 @@
+.error404 {
+	header {
+		nav, .mobile-menu {
+			display: none;
+		}
+	}
+	.error {
+		background-color: $primary;
+		padding: 283px 0px 100px;
+		min-height: 100vh;
+	
+		@media screen and (max-width: $medium) {
+			padding-top: 187px;
+		}
+		p {
+			max-width: 700px;
+			margin: 0px auto;
+		}
+		.circle-btn {
+			margin: 60px auto 0px;
+			padding: 55px 0px;
+		}
+	}
+}

@@ -1,0 +1,227 @@
+header {
+	padding: 100px 150px 100px 70px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+
+	@media screen and (max-width: $medium) {
+		padding: 50px 30px 100px;
+	}
+	&.closed {
+		@media screen and (max-width: $small) {
+			nav {
+				transform: scaleY(1);
+				animation: slide-up .5s ease-in-out;
+				animation-delay: .7s;
+				animation-fill-mode: forwards;
+
+				ul {
+					animation: fade-out .5s ease-in-out;
+					animation-fill-mode: forwards;
+				}
+			}
+		}
+	}
+	&.open {
+		@media screen and (max-width: $small) {
+			position: fixed;
+
+			.logo {
+				opacity: 0;
+			}
+			.mobile-logo {
+				opacity: 1;
+			}
+			.mobile-menu {
+				background-image: url('../img/close-nav.svg');
+			}
+			nav {
+				transform: scaleY(0);
+				animation: slide-down .5s ease-in-out;
+				animation-fill-mode: forwards;
+				overflow: auto;
+
+				ul {
+					animation: fade-in .5s ease-in-out;
+					animation-delay: 1s;
+					animation-fill-mode: forwards;
+				}
+			}
+		}
+	}
+	&.hide-nav {
+		@media screen and (max-width: $small) {
+			nav {
+				transform: scaleY(0);
+				animation: none;
+
+				ul {
+					animation: none;
+				}
+			}
+		}
+	}
+    .logo {
+		width: 263px;
+		height: 83px;
+		background-image: url('../img/logo.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 100px;
+		left: 70px;
+		z-index: 3;
+		transition: 1s ease;
+
+		@media screen and (max-width: $medium) {
+			width: 117px;
+			height: 37px;
+			top: 50px;
+			left: 30px;
+		}
+	}
+	.mobile-logo {
+		width: 263px;
+		height: 83px;
+		background-image: url('../img/nav-logo.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: relative;
+		z-index: 2;
+		opacity: 0;
+		transition: 1s ease;
+
+		@media screen and (max-width: $medium) {
+			width: 117px;
+			height: 37px;
+		}
+	}
+	.mobile-menu {
+		display: none;
+		width: 37px;
+		height: 29px;
+		background-image: url('../img/burger.svg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: transparent;
+		border: none;
+		outline: none;
+		padding: 0px;
+		position: relative;
+		z-index: 2;
+
+		@media screen and (max-width: $small) {
+			display: block;
+		}
+	}
+	nav {
+		@media screen and (max-width: $small) {
+			position: fixed;
+			z-index: 1;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100vh;
+			background-color: $white;
+			transform: scaleY(0);
+			transform-origin: top center;
+			padding-top: 187px;
+		}
+		ul {
+			padding: 0px;
+			margin: 0px;
+
+			@media screen and (max-width: $small) {
+				opacity: 0;
+				margin-top: -30px;
+			}
+			li {
+				list-style-type: none;
+				display: inline;
+				margin-left: 60px;
+
+				@media screen and (max-width: $medium) {
+					margin-left: 40px;
+				}
+				@media screen and (max-width: $small) {
+					display: block;
+					margin-left: 0px;
+					margin-bottom: 50px;
+					text-align: center;
+				}
+				a {
+					font-size: 22px;
+					font-weight: 600;
+					color: $black;
+					text-decoration: underline;
+					transition: .1s ease-in-out;
+
+					@media screen and (max-width: $medium) {
+						font-size: 20px;
+					}
+					@media screen and (max-width: $small) {
+						font-size: 30px;
+					}
+					&:hover, &:focus, &:active {
+						color: $white;
+						text-decoration: none;
+
+						@media screen and (max-width: $small) {
+							color: $black;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+		margin-top: -30px;
+	}
+	100% {
+		opacity: 1;
+		margin-top: 0px;
+	}
+}
+@keyframes fade-out {
+	0% {
+		opacity: 1;
+		margin-top: 0px;
+	}
+	100% {
+		opacity: 0;
+		margin-top: -30px;
+	}
+}
+@keyframes slide-down {
+	0% {
+		transform: scaleY(0);
+	}
+	100% {
+		transform: scaleY(1);
+	}
+}
+@keyframes slide-up {
+	0% {
+		transform: scaleY(1);
+	}
+	100% {
+		transform: scaleY(0);
+	}
+}
+.resize-animation-stopper {
+	header {
+		nav {
+			@media screen and (max-width: $small) {
+				transform: scaleY(0);
+				animation: none !important;
+			}
+		}
+	}
+}

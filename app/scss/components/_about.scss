@@ -1,0 +1,491 @@
+.about {
+	padding-bottom: 0px;
+	margin-bottom: 100px;
+	
+	@media screen and (max-width: $large) {
+		padding-top: calc(150px - 10vw);
+	}
+	@media screen and (max-width: $medium) {
+		margin-bottom: 50px;
+	}
+	@media screen and (max-width: $small) {
+		padding-top: calc(120px - 10vw);
+	}
+	@media screen and (max-width: 500px) {
+		padding-top: calc(120px - 12vw);
+	}
+	.elementor-container {
+		.side-col {
+			@media screen and (max-width: $large) {
+				order: 1;
+			}
+		}
+		.col-lg-8 {
+			@media screen and (max-width: $large) {
+				order: 2;
+			}
+		}
+	}
+	.elementor-widget-heading, .elementor-widget-agency-dots {
+		display: inline-block;
+		width: auto !important;
+
+		.elementor-widget-container {
+			display: inline-block;
+		}
+	}
+	.elementor-widget-agency-dots {
+		display: flex;
+		align-items: center;
+
+		+ .elementor-widget-text-editor {
+			@media screen and (max-width: 1365px) {
+				margin-top: 20px;
+			}
+		}
+		.agency-buttons {
+			margin: 10px 0px;
+		}
+	}
+	.side-col {
+		height: 0px;
+
+		@media screen and (max-width: $large) {
+			flex: 0 0 100%;
+			max-width: 100%;
+			margin-left: calc(50% - 5vw);
+			transform: rotate(90deg);
+			height: 10vw;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top: 0px;
+			margin-top: 0px;
+		}
+		@media screen and (max-width: 700px) {
+			flex: 0 0 150%;
+			max-width: 150%;
+			margin-left: calc(25% - 5vw);
+		}
+		@media screen and (max-width: 500px) {
+			flex: 0 0 170%;
+			max-width: 170%;
+			margin-left: calc(15% - 6vw);
+			height: 12vw;
+		}
+		@media screen and (max-width: 380px) {
+			flex: 0 0 185%;
+			max-width: 185%;
+			margin-left: calc(7.5% - 6vw);
+		}
+		@media screen and (max-width: 330px) {
+			flex: 0 0 200%;
+			max-width: 200%;
+			margin-left: -6vw;
+		}
+		&.elementor-column {
+			margin-left: -8.3333%;
+
+			@media screen and (max-width: $large) {
+				margin-left: calc(50% - 5vw);
+			}
+			@media screen and (max-width: 700px) {
+				margin-left: calc(25% - 5vw);
+			}
+			@media screen and (max-width: 500px) {
+				margin-left: calc(15% - 6vw);
+			}
+			@media screen and (max-width: 380px) {
+				margin-left: calc(7.5% - 6vw);
+			}
+			@media screen and (max-width: 330px) {
+				margin-left: -6vw;
+			}
+			.elementor-widget-wrap {
+				@media screen and (max-width: $large) {
+					width: auto;
+				}
+			}
+		}
+		.section-label {
+			@media screen and (max-width: $large) {
+				transform: none;
+				margin-left: 100px;
+			}
+			@media screen and (max-width: $medium) {
+				margin-left: 50px;
+			}
+		}
+	}
+	h1 {
+		display: inline-block;
+		margin-right: 45px !important;
+	}
+	.agency-buttons {
+		display: inline-block;
+		position: relative;
+		z-index: 10;
+		margin: 10px 0px 30px;
+
+		@media screen and (max-width: 650px) {
+			margin: 15px 0px 40px;
+		}
+		button {
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			border: none;
+			padding: 0px;
+			margin-left: 25px;
+			cursor: pointer;
+			outline: none;
+			transition: opacity .1s linear;
+			--delay: calc((var(--char-index) + 1) * 500ms);
+			animation: breathe 5000ms infinite both;
+			animation-delay: var(--delay);
+
+			@media screen and (max-width: 650px) {
+				width: 25px;
+				height: 25px;
+				margin-left: 15px;
+			}
+			@media screen and (max-width: 400px) {
+				margin-left: 10px;
+			}
+			@media screen and (max-width: 360px) {
+				width: 20px;
+				height: 20px;
+			}
+			&:first-of-type {
+				margin-left: 0px;
+			}
+			&.is-closing {
+				.color {
+					z-index: 1;
+					position: relative;
+				}
+			}
+			.color {
+				width: 100%;
+				height: 100%;
+				border-radius: 50%;
+				transform: scale(1);
+				transition: 1s ease;
+			}
+			&.pmg {
+				.color {
+					background-color: $blue;
+				}
+			}
+			&.pavone {
+				.color {
+					background-color: $yellow;
+				}
+			}
+			&.quench {
+				.color {
+					background-color: $green;
+				}
+			}
+			&.market {
+				.color {
+					background-color: $red;
+				}
+			}
+			&.wildfig {
+				.color {
+					background-color: $purple;
+				}
+			}
+			&.leap {
+				.color {
+					background-color: $orange;
+				}
+			}
+			&.varsity {
+				.color {
+					background-color: $navy;
+				}
+			}
+			&.open {
+				cursor: default;
+
+				.color {
+					transform: scale(80);
+					z-index: 1;
+					position: relative;
+					transition: 1s ease;
+				}
+			}
+		}
+	}
+	p {
+		width: 100%;
+		max-width: 1070px;
+	}
+}
+.about-video {
+	padding-top: 0px;
+
+	.video {
+		margin-left: 70px;
+
+		@media screen and (max-width: $large) {
+			margin-left: 0px;
+		}
+	}
+	.col-11 {
+		@media screen and (max-width: $large) {
+			padding-left: 0px;
+		}
+	}
+}
+.show-modal {
+	overflow-y: hidden !important;
+
+	.agency-buttons {
+		button {
+			animation: none;
+			opacity: 0;
+
+			&.open {
+				opacity: 1;
+			}
+		}
+	}
+	.agency-overlays {
+		z-index: 11;
+		opacity: 1;
+	}
+}
+.overlay-closing {
+	overflow-y: hidden !important;
+	
+	.agency-buttons {
+		button {
+			animation: none;
+		}
+	}
+	.agency-overlays {
+		z-index: 11;
+		transition: .5s opacity ease-in-out;
+	}
+}
+.agency-overlays {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: -1;
+	opacity: 0;
+	transition: 1s opacity ease-in-out;
+
+	&.make-scrollable {
+		overflow-y: auto;
+
+		.overlay {
+			.container {
+				position: absolute;
+				top: 0px;
+				left: 50%;
+				transform: translateX(-50%);
+				padding: 100px 15px;
+			}
+		}
+	}
+	.overlay {
+		display: none;
+
+		&.show {
+			display: block;
+		}
+		&.pmg {
+			.agency-logo {
+				img {
+					@media screen and (max-width: $medium) {
+						width: 180px;
+					}
+				}
+			}
+		}
+		&.pavone {
+			.agency-logo {
+				img {
+					@media screen and (max-width: $medium) {
+						width: 231px;
+					}
+				}
+			}
+		}
+		&.quench {
+			.agency-logo {
+				img {
+					@media screen and (max-width: $medium) {
+						width: 235px;
+					}
+				}
+			}
+		}
+		&.market {
+			.agency-logo {
+				img {
+					@media screen and (max-width: $medium) {
+						width: 101px;
+					}
+				}
+			}
+		}
+		&.wildfig {
+			.agency-logo {
+				img {
+					@media screen and (max-width: $medium) {
+						width: 218px;
+					}
+				}
+			}
+		}
+		&.leap {
+			.agency-logo {
+				img {
+					@media screen and (max-width: $medium) {
+						width: 205px;
+					}
+				}
+			}
+		}
+		&.varsity {
+			.agency-logo {
+				img {
+					@media screen and (max-width: $medium) {
+						width: 238px;
+					}
+				}
+			}
+		}
+		.close-overlay {
+			background-color: transparent;
+			border: none;
+			padding: 0px;
+			outline: none;
+			position: absolute;
+			top: 100px;
+			right: 100px;
+
+			@media screen and (max-width: $medium) {
+				top: 40px;
+				right: 40px;
+			}
+			img {
+				@media screen and (max-width: $medium) {
+					width: 24px;
+					height: 24px;
+				}
+			}
+		}
+		.container {
+			max-width: 1190px;
+			width: 90%;
+			padding: 100px 15px;
+
+			@media screen and (max-width: $medium) {
+				padding: 140px 15px 80px;
+			}
+			.agency-logo {
+				margin-bottom: 60px;
+				
+				@media screen and (max-width: $medium) {
+					margin-bottom: 40px;
+				}
+			}
+			p {
+				font-size: 25px;
+				line-height: 42px;
+				color: $white;
+
+				@media screen and (max-width: $medium) {
+					font-size: 18px;
+					line-height: 30px;
+				}
+			}
+			a {
+				font-size: 32px;
+				line-height: 49px;
+				color: $white;
+				text-decoration: underline;
+				font-weight: 500;
+				margin-top: 40px;
+				display: inline-block;
+	
+				@media screen and (max-width: $medium) {
+					font-size: 28px;
+					margin-top: 20px;
+				}
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+.modal-open {
+	padding-right: 0px !important;
+}
+.modal-backdrop {
+	&.show {
+		display: none;
+	}
+}
+.modal {
+	padding-right: 0px !important;
+}
+.modal-dialog {
+	max-width: none;
+	margin: 0px;
+}
+.modal-content {
+	background-color: transparent;
+	border-radius: 0px;
+	border: none;
+	padding: 0px;
+	min-height: 100vh;
+
+	@media screen and (max-width: $medium) {
+		min-height: calc(100vh - 120px);
+	}
+}
+.modal-header {
+	border: none;
+	padding: 0px;
+	position: relative;
+	z-index: 1;
+}
+.modal-body {
+	padding: 0px;
+	min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+	@media screen and (max-width: $medium) {
+		align-items: flex-start;
+		min-height: calc(100vh - 120px);
+	}
+}
+@keyframes breathe {
+	0% {
+		transform: scale(1);
+	}
+	40% {
+		transform: scale(1.15);
+	}
+	80% {
+		transform: scale(.9);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
