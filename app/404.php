@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>PMG Thinking Page</title>
+        <title>Pavone Thinking Page</title>
         <?php include('includes/meta.php'); ?>
         <?php include('includes/favicon.php'); ?>
         <?php include('includes/styles.php'); ?>

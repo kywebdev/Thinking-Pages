@@ -1,5 +1,5 @@
 header {
-	padding: 100px 150px 100px 70px;
+	padding: 55px 150px 55px 100px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -30,12 +30,6 @@ header {
 		@media screen and (max-width: $small) {
 			position: fixed;
 
-			.logo {
-				opacity: 0;
-			}
-			.mobile-logo {
-				opacity: 1;
-			}
 			.mobile-menu {
 				background-image: url('../img/close-nav.svg');
 			}
@@ -66,38 +60,17 @@ header {
 		}
 	}
     .logo {
-		width: 263px;
-		height: 83px;
+		width: 145px;
+		height: 172px;
 		background-image: url('../img/logo.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
-		position: absolute;
-		top: 100px;
-		left: 70px;
 		z-index: 3;
 		transition: 1s ease;
 
 		@media screen and (max-width: $medium) {
-			width: 117px;
-			height: 37px;
-			top: 50px;
-			left: 30px;
-		}
-	}
-	.mobile-logo {
-		width: 263px;
-		height: 83px;
-		background-image: url('../img/nav-logo.svg');
-		background-size: contain;
-		background-repeat: no-repeat;
-		position: relative;
-		z-index: 2;
-		opacity: 0;
-		transition: 1s ease;
-
-		@media screen and (max-width: $medium) {
-			width: 117px;
-			height: 37px;
+			width: 76px;
+			height: 91px;
 		}
 	}
 	.mobile-menu {

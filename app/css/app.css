@@ -7590,13 +7590,13 @@ h2, .closer-look-points__point__num span {
   font-size: 77px;
   line-height: 94px;
   font-weight: 900;
-  color: #3DB6C9; }
+  color: #F9D23F; }
 
 h3 {
   font-size: 40px;
   line-height: 49px;
   font-weight: 500;
-  color: #3DB6C9; }
+  color: #F9D23F; }
 
 h4 {
   font-size: 32px;
@@ -7636,7 +7636,7 @@ a {
     transform: scale(1.1);
     background-color: #ffffff;
     border-color: #ffffff;
-    color: #3DB6C9; }
+    color: #F9D23F; }
 
 .section-label {
   display: inline-block;
@@ -7645,7 +7645,7 @@ a {
   font-weight: 900;
   letter-spacing: 2.44px;
   text-transform: uppercase;
-  color: #3DB6C9;
+  color: #F9D23F;
   transform: rotate(90deg); }
 
 .elementor-widget:not(:last-child) {
@@ -7655,23 +7655,23 @@ a {
   z-index: 101; }
   .elementor-editor-active .elementor .hero .elementor-column-gap-no > .elementor-column > .elementor-element-populated {
     padding-top: 30px !important; }
-  .elementor-editor-active .elementor .work .work-section {
+  .elementor-editor-active .elementor #work .work-section {
     padding: 200px 0px; }
     @media screen and (max-width: 1200px) {
-      .elementor-editor-active .elementor .work .work-section {
+      .elementor-editor-active .elementor #work .work-section {
         padding: calc(200px - 10vw) 0px 200px; } }
     @media screen and (max-width: 1000px) {
-      .elementor-editor-active .elementor .work .work-section {
+      .elementor-editor-active .elementor #work .work-section {
         padding: calc(150px - 10vw) 0px 150px; } }
     @media screen and (max-width: 500px) {
-      .elementor-editor-active .elementor .work .work-section {
+      .elementor-editor-active .elementor #work .work-section {
         padding: calc(150px - 12vw) 0px 150px; } }
-    .elementor-editor-active .elementor .work .work-section:nth-of-type(even) {
+    .elementor-editor-active .elementor #work .work-section:nth-of-type(even) {
       background-color: #ffffff !important; }
       @media screen and (max-width: 1200px) {
-        .elementor-editor-active .elementor .work .work-section:nth-of-type(even) .work-area {
+        .elementor-editor-active .elementor #work .work-section:nth-of-type(even) .work-area {
           padding-left: 0px; } }
-      .elementor-editor-active .elementor .work .work-section:nth-of-type(even) .side-col {
+      .elementor-editor-active .elementor #work .work-section:nth-of-type(even) .side-col {
         background-color: #ffffff !important;
         height: 320px;
         padding-top: 320px;
@@ -7680,7 +7680,7 @@ a {
         max-width: 25%;
         margin-left: 75% !important; }
         @media screen and (max-width: 1200px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(even) .side-col {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(even) .side-col {
             flex: 0 0 100%;
             max-width: 100%;
             margin-left: calc(50% - 5vw);
@@ -7693,40 +7693,40 @@ a {
             margin-top: 0px;
             margin-left: 45% !important; } }
         @media screen and (max-width: 700px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(even) .side-col {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(even) .side-col {
             flex: 0 0 150%;
             max-width: 150%;
             margin-left: calc(25% - 5vw); } }
         @media screen and (max-width: 500px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(even) .side-col {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(even) .side-col {
             flex: 0 0 170%;
             max-width: 170%;
             margin-left: calc(15% - 6vw);
             height: 12vw; } }
         @media screen and (max-width: 380px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(even) .side-col {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(even) .side-col {
             flex: 0 0 185%;
             max-width: 185%;
             margin-left: calc(7.5% - 6vw); } }
         @media screen and (max-width: 330px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(even) .side-col {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(even) .side-col {
             flex: 0 0 200%;
             max-width: 200%;
             margin-left: -6vw; } }
         @media screen and (max-width: 1200px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(even) .side-col .section-label {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(even) .side-col .section-label {
             transform: none;
             margin-left: -15%; } }
         @media screen and (max-width: 1000px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(even) .side-col .section-label {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(even) .side-col .section-label {
             margin-left: -10%; } }
-    .elementor-editor-active .elementor .work .work-section:nth-of-type(odd) {
+    .elementor-editor-active .elementor #work .work-section:nth-of-type(odd) {
       background-color: #000000; }
       @media screen and (max-width: 1200px) {
-        .elementor-editor-active .elementor .work .work-section:nth-of-type(odd) .work-area {
+        .elementor-editor-active .elementor #work .work-section:nth-of-type(odd) .work-area {
           padding-right: 0px;
           margin-left: 8.33333%; } }
-      .elementor-editor-active .elementor .work .work-section:nth-of-type(odd) .side-col {
+      .elementor-editor-active .elementor #work .work-section:nth-of-type(odd) .side-col {
         background-color: #000000;
         height: 320px;
         padding-top: 320px;
@@ -7735,7 +7735,7 @@ a {
         max-width: 25%;
         margin-left: 0px; }
         @media screen and (max-width: 1200px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(odd) .side-col {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(odd) .side-col {
             flex: 0 0 100%;
             max-width: 100%;
             margin-left: calc(-40% - 5vw);
@@ -7747,37 +7747,37 @@ a {
             padding-top: 0px;
             margin-top: 0px; } }
         @media screen and (max-width: 700px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(odd) .side-col {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(odd) .side-col {
             flex: 0 0 150%;
             max-width: 150%;
             margin-left: calc(-65% - 5vw); } }
         @media screen and (max-width: 500px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(odd) .side-col {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(odd) .side-col {
             flex: 0 0 170%;
             max-width: 170%;
             margin-left: calc(-75% - 4.1vw);
             height: 12vw; } }
         @media screen and (max-width: 380px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(odd) .side-col {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(odd) .side-col {
             flex: 0 0 185%;
             max-width: 185%;
             margin-left: calc(-82.5% - 4.1vw); } }
         @media screen and (max-width: 330px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(odd) .side-col {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(odd) .side-col {
             flex: 0 0 200%;
             max-width: 200%;
             margin-left: calc(-90% - 4.1vw); } }
         @media screen and (max-width: 1200px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(odd) .side-col .section-label {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(odd) .side-col .section-label {
             transform: none;
             margin-left: -15%; } }
         @media screen and (max-width: 1000px) {
-          .elementor-editor-active .elementor .work .work-section:nth-of-type(odd) .side-col .section-label {
+          .elementor-editor-active .elementor #work .work-section:nth-of-type(odd) .side-col .section-label {
             margin-left: -10%; } }
     @media screen and (max-width: 1200px) {
-      .elementor-editor-active .elementor .work .work-section:nth-of-type(2) .work-area {
+      .elementor-editor-active .elementor #work .work-section:nth-of-type(2) .work-area {
         margin-left: 0px; } }
-    .elementor-editor-active .elementor .work .work-section:nth-of-type(2) .side-col {
+    .elementor-editor-active .elementor #work .work-section:nth-of-type(2) .side-col {
       height: auto;
       padding-top: 0px;
       margin-top: 0px;
@@ -7785,7 +7785,7 @@ a {
       max-width: 16.66667%;
       margin-left: 83.33333% !important; }
       @media screen and (max-width: 1200px) {
-        .elementor-editor-active .elementor .work .work-section:nth-of-type(2) .side-col {
+        .elementor-editor-active .elementor #work .work-section:nth-of-type(2) .side-col {
           flex: 0 0 100%;
           max-width: 100%;
           margin-left: calc(50% - 5vw);
@@ -7793,35 +7793,35 @@ a {
           height: 10vw;
           margin-left: 45% !important; } }
       @media screen and (max-width: 700px) {
-        .elementor-editor-active .elementor .work .work-section:nth-of-type(2) .side-col {
+        .elementor-editor-active .elementor #work .work-section:nth-of-type(2) .side-col {
           flex: 0 0 150%;
           max-width: 150%;
           margin-left: calc(25% - 5vw); } }
       @media screen and (max-width: 500px) {
-        .elementor-editor-active .elementor .work .work-section:nth-of-type(2) .side-col {
+        .elementor-editor-active .elementor #work .work-section:nth-of-type(2) .side-col {
           flex: 0 0 170%;
           max-width: 170%;
           margin-left: calc(15% - 6vw);
           height: 12vw; } }
       @media screen and (max-width: 380px) {
-        .elementor-editor-active .elementor .work .work-section:nth-of-type(2) .side-col {
+        .elementor-editor-active .elementor #work .work-section:nth-of-type(2) .side-col {
           flex: 0 0 185%;
           max-width: 185%;
           margin-left: calc(7.5% - 6vw); } }
       @media screen and (max-width: 330px) {
-        .elementor-editor-active .elementor .work .work-section:nth-of-type(2) .side-col {
+        .elementor-editor-active .elementor #work .work-section:nth-of-type(2) .side-col {
           flex: 0 0 200%;
           max-width: 200%;
           margin-left: -6vw; } }
       @media screen and (max-width: 1200px) {
-        .elementor-editor-active .elementor .work .work-section:nth-of-type(2) .side-col .section-label {
+        .elementor-editor-active .elementor #work .work-section:nth-of-type(2) .side-col .section-label {
           margin-left: 10%; } }
 
 .elementor-editor-active.single header, .elementor-editor-active.single .entry-footer {
   display: none; }
 
 header {
-  padding: 100px 150px 100px 70px;
+  padding: 55px 150px 55px 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -7844,10 +7844,6 @@ header {
   @media screen and (max-width: 550px) {
     header.open {
       position: fixed; }
-      header.open .logo {
-        opacity: 0; }
-      header.open .mobile-logo {
-        opacity: 1; }
       header.open .mobile-menu {
         background-image: url("../img/close-nav.svg"); }
       header.open nav {
@@ -7866,36 +7862,17 @@ header {
       header.hide-nav nav ul {
         animation: none; } }
   header .logo {
-    width: 263px;
-    height: 83px;
+    width: 145px;
+    height: 172px;
     background-image: url("../img/logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 100px;
-    left: 70px;
     z-index: 3;
     transition: 1s ease; }
     @media screen and (max-width: 1000px) {
       header .logo {
-        width: 117px;
-        height: 37px;
-        top: 50px;
-        left: 30px; } }
-  header .mobile-logo {
-    width: 263px;
-    height: 83px;
-    background-image: url("../img/nav-logo.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 2;
-    opacity: 0;
-    transition: 1s ease; }
-    @media screen and (max-width: 1000px) {
-      header .mobile-logo {
-        width: 117px;
-        height: 37px; } }
+        width: 76px;
+        height: 91px; } }
   header .mobile-menu {
     display: none;
     width: 37px;
@@ -7997,15 +7974,13 @@ header {
     animation: none !important; } }
 
 footer {
-  background-color: #3DB6C9;
+  background-color: #F9D23F;
   padding-top: 100px; }
   @media screen and (max-width: 1000px) {
     footer {
       padding-top: 60px; } }
   footer .elementor-container {
     flex-wrap: wrap; }
-  footer h1 {
-    line-height: 1.2 !important; }
   footer p {
     font-size: 25px; }
     @media screen and (max-width: 1000px) {
@@ -8035,7 +8010,7 @@ footer {
   display: none; }
 
 .error404 .error {
-  background-color: #3DB6C9;
+  background-color: #F9D23F;
   padding: 283px 0px 100px;
   min-height: 100vh; }
   @media screen and (max-width: 1000px) {
@@ -8283,7 +8258,7 @@ section {
       max-width: 100%; }
 
 .theres-more {
-  background-color: #3DB6C9;
+  background-color: #F9D23F;
   position: relative;
   z-index: 1;
   padding: 150px; }
@@ -8291,7 +8266,7 @@ section {
     .theres-more {
       padding: 150px 8.33333%; } }
   .theres-more .color-col {
-    background-color: #3DB6C9;
+    background-color: #F9D23F;
     position: absolute;
     right: 0px;
     z-index: -1; }
@@ -8302,7 +8277,7 @@ section {
   z-index: 2; }
 
 .results {
-  background-color: #3DB6C9;
+  background-color: #F9D23F;
   position: relative;
   z-index: 1;
   padding: 150px; }
@@ -8313,7 +8288,7 @@ section {
     max-width: 780px;
     width: 100%; }
   .results .color-col {
-    background-color: #3DB6C9;
+    background-color: #F9D23F;
     height: 320px;
     position: absolute;
     top: -320px;
@@ -8398,7 +8373,7 @@ section {
       .our-partners .side-col .elementor-widget-container .section-label {
         margin-left: -20%; } }
   .our-partners h1 {
-    color: #3DB6C9; }
+    color: #F9D23F; }
     .our-partners h1.elementor-heading-title {
       margin-bottom: 0px !important; }
   .our-partners .our-partners__logos {
@@ -8410,7 +8385,6 @@ section {
         width: calc(100% + 60px); } }
     .our-partners .our-partners__logos__logo {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       margin: 40px 0px; }
@@ -8420,18 +8394,8 @@ section {
           padding: 0px 30px; } }
       .our-partners .our-partners__logos__logo img {
         max-width: 100%; }
-      .our-partners .our-partners__logos__logo p {
-        color: white;
-        width: 100%;
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 0px;
-        text-transform: uppercase; }
-        @media screen and (max-width: 1000px) {
-          .our-partners .our-partners__logos__logo p {
-            margin-top: 20px; } }
 
-.work {
+#work {
   padding: 0px; }
 
 .work-section {
@@ -8644,9 +8608,9 @@ section {
       width: 15px;
       height: 15px; }
       .work-section .slick-dots li.slick-active button {
-        background-color: #3DB6C9; }
+        background-color: #F9D23F; }
     .work-section .slick-dots button {
-      border: 1px solid #3DB6C9;
+      border: 1px solid #F9D23F;
       border-radius: 50%;
       width: 15px;
       height: 15px;
@@ -8750,78 +8714,6 @@ section {
     @media screen and (max-width: 1000px) {
       .about .side-col .section-label {
         margin-left: 50px; } }
-  .about h1 {
-    display: inline-block;
-    margin-right: 45px !important; }
-  .about .agency-buttons {
-    display: inline-block;
-    position: relative;
-    z-index: 10;
-    margin: 10px 0px 30px; }
-    @media screen and (max-width: 650px) {
-      .about .agency-buttons {
-        margin: 15px 0px 40px; } }
-    .about .agency-buttons button {
-      display: inline-block;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      border: none;
-      padding: 0px;
-      margin-left: 25px;
-      cursor: pointer;
-      outline: none;
-      transition: opacity .1s linear;
-      --delay: calc((var(--char-index) + 1) * 500ms);
-      animation: breathe 5000ms infinite both;
-      animation-delay: var(--delay); }
-      @media screen and (max-width: 650px) {
-        .about .agency-buttons button {
-          width: 25px;
-          height: 25px;
-          margin-left: 15px; } }
-      @media screen and (max-width: 400px) {
-        .about .agency-buttons button {
-          margin-left: 10px; } }
-      @media screen and (max-width: 360px) {
-        .about .agency-buttons button {
-          width: 20px;
-          height: 20px; } }
-      .about .agency-buttons button:first-of-type {
-        margin-left: 0px; }
-      .about .agency-buttons button.is-closing .color {
-        z-index: 1;
-        position: relative; }
-      .about .agency-buttons button .color {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 1s ease; }
-      .about .agency-buttons button.pmg .color {
-        background-color: #3DB6C9; }
-      .about .agency-buttons button.pavone .color {
-        background-color: #F9D23F; }
-      .about .agency-buttons button.quench .color {
-        background-color: #67DE76; }
-      .about .agency-buttons button.market .color {
-        background-color: #FF0000; }
-      .about .agency-buttons button.wildfig .color {
-        background-color: #A23195; }
-      .about .agency-buttons button.leap .color {
-        background-color: #FF9E14; }
-      .about .agency-buttons button.varsity .color {
-        background-color: #002856; }
-      .about .agency-buttons button.open {
-        cursor: default; }
-        .about .agency-buttons button.open .color {
-          transform: scale(80);
-          z-index: 1;
-          position: relative;
-          transition: 1s ease; }
-  .about p {
-    width: 100%;
-    max-width: 1070px; }
 
 .about-video {
   padding-top: 0px; }
@@ -8833,170 +8725,6 @@ section {
   @media screen and (max-width: 1200px) {
     .about-video .col-11 {
       padding-left: 0px; } }
-
-.show-modal {
-  overflow-y: hidden !important; }
-  .show-modal .agency-buttons button {
-    animation: none;
-    opacity: 0; }
-    .show-modal .agency-buttons button.open {
-      opacity: 1; }
-  .show-modal .agency-overlays {
-    z-index: 11;
-    opacity: 1; }
-
-.overlay-closing {
-  overflow-y: hidden !important; }
-  .overlay-closing .agency-buttons button {
-    animation: none; }
-  .overlay-closing .agency-overlays {
-    z-index: 11;
-    transition: .5s opacity ease-in-out; }
-
-.agency-overlays {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: -1;
-  opacity: 0;
-  transition: 1s opacity ease-in-out; }
-  .agency-overlays.make-scrollable {
-    overflow-y: auto; }
-    .agency-overlays.make-scrollable .overlay .container {
-      position: absolute;
-      top: 0px;
-      left: 50%;
-      transform: translateX(-50%);
-      padding: 100px 15px; }
-  .agency-overlays .overlay {
-    display: none; }
-    .agency-overlays .overlay.show {
-      display: block; }
-    @media screen and (max-width: 1000px) {
-      .agency-overlays .overlay.pmg .agency-logo img {
-        width: 180px; } }
-    @media screen and (max-width: 1000px) {
-      .agency-overlays .overlay.pavone .agency-logo img {
-        width: 231px; } }
-    @media screen and (max-width: 1000px) {
-      .agency-overlays .overlay.quench .agency-logo img {
-        width: 235px; } }
-    @media screen and (max-width: 1000px) {
-      .agency-overlays .overlay.market .agency-logo img {
-        width: 101px; } }
-    @media screen and (max-width: 1000px) {
-      .agency-overlays .overlay.wildfig .agency-logo img {
-        width: 218px; } }
-    @media screen and (max-width: 1000px) {
-      .agency-overlays .overlay.leap .agency-logo img {
-        width: 205px; } }
-    @media screen and (max-width: 1000px) {
-      .agency-overlays .overlay.varsity .agency-logo img {
-        width: 238px; } }
-    .agency-overlays .overlay .close-overlay {
-      background-color: transparent;
-      border: none;
-      padding: 0px;
-      outline: none;
-      position: absolute;
-      top: 100px;
-      right: 100px; }
-      @media screen and (max-width: 1000px) {
-        .agency-overlays .overlay .close-overlay {
-          top: 40px;
-          right: 40px; } }
-      @media screen and (max-width: 1000px) {
-        .agency-overlays .overlay .close-overlay img {
-          width: 24px;
-          height: 24px; } }
-    .agency-overlays .overlay .container {
-      max-width: 1190px;
-      width: 90%;
-      padding: 100px 15px; }
-      @media screen and (max-width: 1000px) {
-        .agency-overlays .overlay .container {
-          padding: 140px 15px 80px; } }
-      .agency-overlays .overlay .container .agency-logo {
-        margin-bottom: 60px; }
-        @media screen and (max-width: 1000px) {
-          .agency-overlays .overlay .container .agency-logo {
-            margin-bottom: 40px; } }
-      .agency-overlays .overlay .container p {
-        font-size: 25px;
-        line-height: 42px;
-        color: #ffffff; }
-        @media screen and (max-width: 1000px) {
-          .agency-overlays .overlay .container p {
-            font-size: 18px;
-            line-height: 30px; } }
-      .agency-overlays .overlay .container a {
-        font-size: 32px;
-        line-height: 49px;
-        color: #ffffff;
-        text-decoration: underline;
-        font-weight: 500;
-        margin-top: 40px;
-        display: inline-block; }
-        @media screen and (max-width: 1000px) {
-          .agency-overlays .overlay .container a {
-            font-size: 28px;
-            margin-top: 20px; } }
-        .agency-overlays .overlay .container a:hover {
-          text-decoration: none; }
-
-.modal-open {
-  padding-right: 0px !important; }
-
-.modal-backdrop.show {
-  display: none; }
-
-.modal {
-  padding-right: 0px !important; }
-
-.modal-dialog {
-  max-width: none;
-  margin: 0px; }
-
-.modal-content {
-  background-color: transparent;
-  border-radius: 0px;
-  border: none;
-  padding: 0px;
-  min-height: 100vh; }
-  @media screen and (max-width: 1000px) {
-    .modal-content {
-      min-height: calc(100vh - 120px); } }
-
-.modal-header {
-  border: none;
-  padding: 0px;
-  position: relative;
-  z-index: 1; }
-
-.modal-body {
-  padding: 0px;
-  min-height: 100vh;
-  display: flex;
-  align-items: center; }
-  @media screen and (max-width: 1000px) {
-    .modal-body {
-      align-items: flex-start;
-      min-height: calc(100vh - 120px); } }
-
-@keyframes breathe {
-  0% {
-    transform: scale(1); }
-  40% {
-    transform: scale(1.15); }
-  80% {
-    transform: scale(0.9); }
-  100% {
-    transform: scale(1); } }
 
 /* Slider */
 .slick-loading .slick-list {

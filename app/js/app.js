@@ -46,49 +46,6 @@ $(document).ready(function() {
 		touchThreshold: 100
 	});
 
-	// agency buttons
-	$('.agency-buttons button').on('click', function() {
-		$(this).addClass('open');
-		$('body').addClass('show-modal');
-		var agency = $(this).data('agency');
-		var showAgency = $('.agency-overlays .overlay[data-agency="' + agency + '"]');
-		showAgency.addClass('show');
-	});
-
-	// close the agency overlay
-	$('.close-overlay').on('click', function() {
-		$('.agency-buttons button.open').addClass('is-closing');
-		$('.agency-buttons button').removeClass('open');
-		$('body').removeClass('show-modal');
-		$('body').addClass('overlay-closing');
-		setTimeout(function() {
-			$('.agency-overlays .overlay').removeClass('show');
-			$('body').removeClass('overlay-closing');
-			$('.agency-buttons button').removeClass('is-closing');
-		}, 1000);
-	});
-
-	// show modals on load
-	$('.modal').modal('show');
-
-	// keep the page scrolled to the about section when the modal window is resized
-	function scrollOverlay(width) {
-        if (width > 0) {
-            if ($('.agency-overlays .overlay').hasClass('show')) {
-				var target = '#about';
-				var $target = $(target);
-		
-				$('html, body').stop().animate({
-					'scrollTop': 0 + $target.offset().top
-				}, 900, 'swing', function() {});
-			}
-		}
-    }
-    scrollOverlay( $(window).width() );
-    $(window).on('resize', function() {
-        scrollOverlay( $(this).width() );
-    });
-
 	// toggle the mobile menu
 	$('.mobile-menu').on('click', function() {
 		$('header').toggleClass('open closed').removeClass('hide-nav');

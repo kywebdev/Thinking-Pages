@@ -1,6 +1,5 @@
 <header class="closed hide-nav">
     <div class="logo"></div>
-	<div class="mobile-logo"></div>
 	<button class="mobile-menu"></button>
 	<nav>
 		<ul>
