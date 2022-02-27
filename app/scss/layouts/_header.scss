@@ -1,5 +1,5 @@
 header {
-	padding: 55px 150px 55px 100px;
+	padding: 100px 150px 100px 70px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -60,8 +60,8 @@ header {
 		}
 	}
     .logo {
-		width: 145px;
-		height: 172px;
+		width: 337px;
+		height: 98px;
 		background-image: url('../img/logo.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -69,8 +69,8 @@ header {
 		transition: 1s ease;
 
 		@media screen and (max-width: $medium) {
-			width: 76px;
-			height: 91px;
+			width: 169px;
+			height: 49px;
 		}
 	}
 	.mobile-menu {

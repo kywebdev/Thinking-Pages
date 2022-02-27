@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Pavone Thinking Page</title>
+        <title>quench Thinking Page</title>
         <?php include('includes/meta.php'); ?>
         <?php include('includes/favicon.php'); ?>
         <?php include('includes/styles.php'); ?>
@@ -26,7 +26,7 @@
 					<div class="col-lg-3 hero__text__side">
 						<a href="" target="_blank" class="circle-btn">Download <br />Proposal</a>
 						<div class="elementor-widget-section-label">
-							<span class="section-label">More from Pavone</span>
+							<span class="section-label">More from quench</span>
 						</div>
 					</div>
 				</div>
@@ -38,7 +38,7 @@
 					<span class="section-label">A Closer Look</span>
 				</div>
 				<div class="col-lg-8 offset-lg-0 col-10 offset-1 closer-look__intro">
-					<h1>Pavone  +  Portofino</h1>
+					<h1>quench  +  Portofino</h1>
 					<p>How do you launch a premium, Italian-style tuna brand among a declining category? <strong>Start something new. Entirely new.</strong> Specialty tuna sales is one of the few bright spots within the tuna category. Armed with the consumer and category insights needed back our strategy we knew we needed to launch a new brand and make a splash. So, how did we do it? We got consumers to look at old world tuna in a new way.</p>
 				</div>
 			</div>
@@ -202,7 +202,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 col-10 offset-1">
-					<h1>About Pavone</h1>
+					<h1>About quench</h1>
 				</div>
 			</div>
 		</section>
@@ -211,7 +211,7 @@
 				<div class="col-lg-8 offset-lg-2 col-11">
 					<div class="video">
 						<div style="padding:56.25% 0 0 0;position:relative;">
-							<iframe src="https://player.vimeo.com/video/498132647?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+							<iframe src="https://player.vimeo.com/video/134015972?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>

@@ -7590,13 +7590,13 @@ h2, .closer-look-points__point__num span {
   font-size: 77px;
   line-height: 94px;
   font-weight: 900;
-  color: #F9D23F; }
+  color: #67DE76; }
 
 h3 {
   font-size: 40px;
   line-height: 49px;
   font-weight: 500;
-  color: #F9D23F; }
+  color: #67DE76; }
 
 h4 {
   font-size: 32px;
@@ -7636,7 +7636,7 @@ a {
     transform: scale(1.1);
     background-color: #ffffff;
     border-color: #ffffff;
-    color: #F9D23F; }
+    color: #67DE76; }
 
 .section-label {
   display: inline-block;
@@ -7645,7 +7645,7 @@ a {
   font-weight: 900;
   letter-spacing: 2.44px;
   text-transform: uppercase;
-  color: #F9D23F;
+  color: #67DE76;
   transform: rotate(90deg); }
 
 .elementor-widget:not(:last-child) {
@@ -7821,7 +7821,7 @@ a {
   display: none; }
 
 header {
-  padding: 55px 150px 55px 100px;
+  padding: 100px 150px 100px 70px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -7862,8 +7862,8 @@ header {
       header.hide-nav nav ul {
         animation: none; } }
   header .logo {
-    width: 145px;
-    height: 172px;
+    width: 337px;
+    height: 98px;
     background-image: url("../img/logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -7871,8 +7871,8 @@ header {
     transition: 1s ease; }
     @media screen and (max-width: 1000px) {
       header .logo {
-        width: 76px;
-        height: 91px; } }
+        width: 169px;
+        height: 49px; } }
   header .mobile-menu {
     display: none;
     width: 37px;
@@ -7974,7 +7974,7 @@ header {
     animation: none !important; } }
 
 footer {
-  background-color: #F9D23F;
+  background-color: #67DE76;
   padding-top: 100px; }
   @media screen and (max-width: 1000px) {
     footer {
@@ -8010,7 +8010,7 @@ footer {
   display: none; }
 
 .error404 .error {
-  background-color: #F9D23F;
+  background-color: #67DE76;
   padding: 283px 0px 100px;
   min-height: 100vh; }
   @media screen and (max-width: 1000px) {
@@ -8258,7 +8258,7 @@ section {
       max-width: 100%; }
 
 .theres-more {
-  background-color: #F9D23F;
+  background-color: #67DE76;
   position: relative;
   z-index: 1;
   padding: 150px; }
@@ -8266,7 +8266,7 @@ section {
     .theres-more {
       padding: 150px 8.33333%; } }
   .theres-more .color-col {
-    background-color: #F9D23F;
+    background-color: #67DE76;
     position: absolute;
     right: 0px;
     z-index: -1; }
@@ -8277,7 +8277,7 @@ section {
   z-index: 2; }
 
 .results {
-  background-color: #F9D23F;
+  background-color: #67DE76;
   position: relative;
   z-index: 1;
   padding: 150px; }
@@ -8288,7 +8288,7 @@ section {
     max-width: 780px;
     width: 100%; }
   .results .color-col {
-    background-color: #F9D23F;
+    background-color: #67DE76;
     height: 320px;
     position: absolute;
     top: -320px;
@@ -8373,7 +8373,7 @@ section {
       .our-partners .side-col .elementor-widget-container .section-label {
         margin-left: -20%; } }
   .our-partners h1 {
-    color: #F9D23F; }
+    color: #67DE76; }
     .our-partners h1.elementor-heading-title {
       margin-bottom: 0px !important; }
   .our-partners .our-partners__logos {
@@ -8608,9 +8608,9 @@ section {
       width: 15px;
       height: 15px; }
       .work-section .slick-dots li.slick-active button {
-        background-color: #F9D23F; }
+        background-color: #67DE76; }
     .work-section .slick-dots button {
-      border: 1px solid #F9D23F;
+      border: 1px solid #67DE76;
       border-radius: 50%;
       width: 15px;
       height: 15px;
